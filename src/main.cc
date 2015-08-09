@@ -9,9 +9,11 @@ using std::endl;
 
 
 const char* LANGS[] = {
-  "en", "Hello world",
-  "fr", "Bonjour monde",
-  "de", "Hallo welt"
+  //"en", "Hello world",
+  //"fr", "Bonjour monde",
+  //"de", "Hallo welt",
+  "pl", "Ellohay orldway",
+  "zh", "Ni hao"
 };
 
 
@@ -44,9 +46,14 @@ int main(int argc, char** argv) {
   
   const int n_langs = (sizeof(langmap)/sizeof(langmap[0]))/2;
   
+  cout << "n_langs " << n_langs << endl;
+
   for (int kk = 0; kk < n_langs; kk++) {
     const std::string key(LANGS[2*kk]);
     const std::string val(LANGS[2*kk + 1]);
+
+    cout << key << " " << val << endl;
+
     langmap.insert(std::make_pair<std::string, std::string>(key, val));
   }  
 
