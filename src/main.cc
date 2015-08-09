@@ -15,7 +15,8 @@ int main(int argc, char** argv) {
 
   say_hello();
 
-
+  
+  cout << "I'm out!" << endl;
   return 0;
 }
 
