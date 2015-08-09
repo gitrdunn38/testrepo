@@ -5,10 +5,15 @@
 using std::cout;
 using std::endl;
 
-int main() {
 
-  cout << "Hello world!" << endl;
+void say_hello() {
+  cout << "Hello world" << endl;
+}
 
+
+int main(int argc, char** argv) {
+
+  say_hello();
 
 
   return 0;
