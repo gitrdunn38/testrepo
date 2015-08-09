@@ -37,7 +37,6 @@ void say_hello(int argc, char** argv, const langmap_t& langmap) {
 }
 
 
-
   
 int main(int argc, char** argv) {
   // Build the lang map
