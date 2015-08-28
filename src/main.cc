@@ -22,6 +22,7 @@ const char* LANGS[] = {
 typedef std::map<std::string, std::string> langmap_t;
 
 
+// This thing says hello.
 void say_hello(int argc, char** argv, const langmap_t& langmap) {
   
   if (argc < 2) {
