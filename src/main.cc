@@ -19,6 +19,7 @@ const char* LANGS[] = {
 };
 
 
+// This is my typedef for convenience.
 typedef std::map<std::string, std::string> langmap_t;
 
 
