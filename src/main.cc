@@ -13,7 +13,8 @@ const char* LANGS[] = {
   "fr", "Bonjour monde",
   "de", "Hallo welt",
   "pl", "Ellohay orldway",
-  "zh", "Ni hao"
+  "zh", "Ni hao",
+  "jp", "konichiwa"
 };
 
 
